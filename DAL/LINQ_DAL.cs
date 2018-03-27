@@ -42,7 +42,8 @@ namespace DAL
 
         public List<Backend.Product> GetAllProducts()
         {
-            throw new NotImplementedException();
+            return DB;
         }
+
     }
 }
