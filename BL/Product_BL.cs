@@ -36,7 +36,9 @@ namespace BL
 
         public List<Product> FindProductByName(string name)
         {
-            throw new NotImplementedException();
+
+                return itsDAL.ProductNameQuery(name);
+            
         }
     }
 }
